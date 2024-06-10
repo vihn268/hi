@@ -1,0 +1,28 @@
+*{
+    max-width: 500px;
+}
+
+.text-font{
+    font-variant: small-caps;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.background-color{
+    border: 1px solid red;
+    background-color: yellow;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 20px;
+    color: orangered;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px blue;
+}
+
+.max-width{
+    width: 100%;
+}

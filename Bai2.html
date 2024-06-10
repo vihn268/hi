@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/Bai2.css">
+</head>
+<body>
+    <div class="text-font">
+        <label for="">Họ và tên:</label>
+        <br>
+        <input class="max-width" type="text" name="" id="">
+    </div>
+    <div class="text-font">
+        <fieldset>
+            <legend>Giới tính:</legend>
+            <lable><input type="radio" name="gender" value="">Nam</lable>
+            <lable><input type="radio" name="gender" value="">Nữ</lable>
+        </fieldset>
+    </div>
+    <div class="text-font">
+        <lable>Ngày sinh:</lable>
+        <br>
+        <input class="max-width" type="date" placeholder="mm//dd//yy">
+    </div>
+    <div class="text-font">
+        <label for="">Điểm:</label>
+        <br>
+        <input class="background-color max-width" type="number" min="0" max="10" step="0.25">
+    </div>
+    <div class="text-font">
+        <label for="data-list">Nghề nghiệp:</label>
+        <br>
+        <input class="max-width" list="data-list">
+        <datalist id="data-list"> 
+            <option value="Giáo viên"></option>
+            <option value="Doanh nhân"></option>
+            <option value="Công nhân"></option>
+            <option value="Kỹ sư"></option>
+            <option value="Lao công"></option>
+        </datalist>
+    </div>
+    <div class="text-font">
+        <fieldset style="display: block;">
+            <legend>Sở thích:</legend>
+            <lable><input type="checkbox">Thể thao</lable>
+            <lable><input type="checkbox">Du lịch</lable>
+            <lable><input type="checkbox">Âm nhạc</lable>
+            <lable><input type="checkbox">Ẩm thực</lable>
+        </fieldset>
+    </div>
+    <div class="text-font">
+        <label for="">Ghi chú:</label>
+        <br>
+        <textarea class="max-width" class="input" name="" id=""></textarea>   
+    </div>
+    <hr>
+    <div class="text-font">
+        <button>Đăng ký</button>
+        <button>Nhập lại</button>
+    </div>
+</body>
+</html>
